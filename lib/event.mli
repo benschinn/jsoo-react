@@ -261,6 +261,7 @@ module Pointer : sig
   val width : t -> float
   val height : t -> float
   val pointerType : t -> string (* 'mouse' | 'pen' | 'touch' *)
+
   val isPrimary : t -> bool
 
   (** Inherited from Mouse *)
